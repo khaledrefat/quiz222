@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-one{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 35px;
+    margin-right: 700px;
+}
+.section-one .button1 .search  input{
+    height: 40px;
+    width: 150px;
+    border: none;
+    position: absolute;
+    left:140px;
+    top: 60px;
+    text-align: center;
+}
+.section-one .button1 .fa-solid{
+    position: absolute;
+    top: 75px;
+    left: 150px;
+}
+
+.section-one .button1 {
+    display: flex;
+
+}
+.section-one .button1 .search{
+        border-width: 500px;
+        padding: 50px;
+        border: 1px solid white;
+        outline-style: none;
+      }
+.section-one .name .solidd{
+    border-style: 30px solid  rgb(17, 16, 16);
+    padding-left: px;
+    border-style: solid;
+    padding: 20px;
+    font-size: 22px;
+    font-weight: 700px;
+    border-radius: 50px;
+    color: aliceblue;
+    background-color: blueviolet;
+    position: absolute;
+    right: 550px;
+    top: 50px;
+}
+
+.section-one .name .solidd:hover{
+    border-style: 30px double  rgb(236, 27, 27);
+    border-radius: 90px;
+    color: rgb(14, 133, 236);
+    background-color: rgb(15, 12, 17);
+    position: absolute;
+    right: 550px;
+    top: 80px;
+}
+.section-one .icons{
+    font-size: 22px;
+}
+.section-one .icons i:hover{
+    color: brown;
+    transform: scale(1.04);
+
+}
+
+.hre{
+margin-top: 30px;
+opacity: .2;
+}
+/* <!-- ---------section one end---------- --> */
+/* <!-- --------navbar start---------- --> */
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+
+}
+.navbar ul li{
+    padding-left: 20px;
+    list-style-type: none;
+    font-size: 25px;
+    
+
+}
+.navbarli:hover{
+    color: brown;
+    transform: scale(1.05);
+
+}
+.navbar .luil{
+    color: rgb(233, 71, 71);
+}
+
+/* <!-- --------navbar end---------- -->
+<!-- --------chose start---------- --> */
+.shoes{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-top: 50px;
+    height: 500px;
+}
+.shoes .shoes-h-p{
+    position: absolute;
+    padding-left: 60%;
+}
+.shoes .shoes-h-p  .shoes-h{
+font-size: 30px;
+
+}
+.shoes-h-p button{
+    width: 100px;
+    height: 40px;
+    background-color: brown;
+    color: white;
+    border: 1px;
+}
+
+/* <!-- --------shoes  end---------- -->
+<!-- --------pragraph start---------- --> */
+
+.pragraph{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    padding-left: 40px;
+    padding-left: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 200px;
+    }
+.pragraph .solid{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.pragraph .solid .fa{
+    color: rgb(101, 14, 201);
+    font-size: 30px;
+    padding-right: 20px;
+    padding-left: px;
+}
+.pragraph .solid .FREE{
+    padding: 20px;
+}
+    /* <!-- --------pragraph end---------- -->
+    <!-- --------potos start---------- --> */
+    .photos{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        justify-items: center;
+        position: relative;
+        margin-bottom: 100px;
+
+    }
+.photos .women:hover{
+    transform: scale(1.08);
+
+}
+
+    .photo .women{
+        z-index: 2;
+    }
+    .photo .women{
+        content: "";
+        background: black;
+        opacity: ;
+        z-index: 2;
+    }
+
+
+    .photo .women::before {
+        width: 100%;
+        height: 100%;
+        background: black;
+        opacity: 00.7;
+        content: "";
+        transform: scale(1.08);
+
+    }
+.photos .collection{
+    position: absolute;
+    top: 380px;
+    color: rgb(219, 2, 248);
+    letter-spacing: 10px;
+
+}
+/* <!-- --------photos end---------- --> */
+/* <!-- --------featured start---------- --> */
+.photo-photo{
+    background-color: rgba(224, 226, 226, 0.959);
+    padding-bottom: 10px;
+
+        }
+    
+.featured{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.cloth_1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+    position: relative;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    height: 350px;
+}
+.cloth_1 .Tank{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    font-size: 20px;
+
+}
+.cloth_1 .Tank a{
+    text-decoration: none;
+
+
+}
+
+.cloth_1 .Tank .h4{
+    font-size: 15px;
+    font-weight: 100px;
+
+}
+/* <!-- --------featured end---------- -->
+<!-- --------   big sale start---------- --> */
+
+.featured1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+.big-sale{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.big-sale .sale{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+.big-sale .sale h1{
+    font-size: 40px;
+    color: rgb(101, 14, 201);
+
+}
+
+.big-sale .sale h6{
+    font-size: 15px;
+}
+.big-sale .sale p{
+    width: 55%;
+}
+.big-sale .sale button{
+    font-size: 15px;
+    color: white;
+    background-color : rgb(101, 14, 201);
+    border-radius: 3px;
+    padding: 10px;
+}
+
+button:hover{
+    transform: scale(1.08);
+}
+
+/* <!-- --------   big sale end---------- -->
+<!-- --------   navigations start---------- --> */
+
+.enddd{
+    background-color: rgba(224, 226, 226, 0.959);
+    height: 330px;
+
+
+}
+.navigations{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 100px;
+    padding-top: 50px;
+
+
+}
+
+.navigations .navigations-navigations{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 20px;
+
+}
+
+.navigations .navigations-navigations .sell{
+ padding: 10px;
+list-style-type: none;
+}
+
+.navigations .navigations-navigations .fa-location{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    direction: ltr;
+
+}
+.navigations .promo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding-right: 100px;
+
+}
+
+
+.navigations .fa-location{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.Subsribe{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    padding-right: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+
+}
+.Subsribe .form{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.Subsribe .form input{
+    height: 30px;
+    width: 180px;
+}
+.Subsribe .hh3{
+    display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+top: 3160px;
+left: 1080px;
+}
+
+.Subsribe button{
+    height: 30px;
+    width: 50px;
+
+    font-size: 15px;
+    color: white;
+    background-color : rgb(101, 14, 201);
+
+}
+.copyri{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(145, 126, 98);
+}
+a{
+    text-decoration: none;
+}
